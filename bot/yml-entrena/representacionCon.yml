@@ -1,9 +1,23 @@
 categories:
 - representacion-Conoc
 conversations:
+- - me podrias hablar sobre representacion del conocimiento?
+  - la representacion de conocimiento implica definir los símbolos que permitirán representar el problema 
+    y la forma de usarlos buscando poder inferir nuevo conocimiento. Puedes preguntar sobre los tipos también :)
+- - me puedes decir algo sobre representacion del conocimiento?
+  - la representacion de conocimiento implica definir los símbolos que permitirán representar el problema 
+    y la forma de usarlos buscando poder inferir nuevo conocimiento. Puedes preguntar sobre los tipos también.
+- - conoces sobre representacion del conocimiento?
+  - Bueno, la representacion de conocimiento implica definir los símbolos que permitirán representar el problema 
+    y la forma de usarlos buscando poder inferir nuevo conocimiento. Puedes preguntar sobre los tipos también ;)
 - - qué es representación del conocimiento
-  - Es un área de la Inteligencia Artificial cuyo objetivo fundamental es representar el de una manera que facilite la inferencia (sacar conclusiones) a partir de dicho conocimiento
+  - Es un área de la Inteligencia Artificial cuyo objetivo fundamental es representar de una manera que facilite la inferencia (sacar conclusiones) a partir de dicho conocimiento
 - - cuales son las representaciones del conocimiento
+  - los tipos de representacion del conocimiento son la logica de predicados, las redes semánticas, los marcos (frames) y los sistemas de producción.
+    puedes preguntar más sobre cada uno de ellos. 
+- - cuales son los tipos de representaciones del conocimiento?
+  - los tipos de representacion del conocimiento son la logica de predicados, las redes semánticas, los marcos (frames) y las reglas de producción.
+    puedes preguntar más sobre cada uno de ellos.
   - los tipos de representacion del conocimiento son la logica de predicados, las redes semánticas, los marcos (frames) y los sistemas de producción.
     puedes preguntar más sobre cada uno de ellos. 
 - - que implica representar conocimiento

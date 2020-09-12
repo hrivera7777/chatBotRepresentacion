@@ -40,19 +40,21 @@ def agregar(pregunta):
 
 def arranque():
     
-    bot = ChatBot('Jaimito',
+    bot = ChatBot('Jaimito', #nombre del objeto
         response_selection_method=get_random_response,
         logic_adapters=[
             {
                 'import_path': 'chatterbot.logic.BestMatch',
                 "statement_comparison_function": levenshtein_distance,
                 'maximum_similarity_threshold': 0.92,
-                'default_response': 'Lo siento podrías formular diferente tu pregunta' #solo se sobre estos pocos temas: " + str(conocimientos())
+                "response_selection_method": get_most_frequent_response,
+                'default_response': 'solo se sobre estos pocos temas: ' + str(conocimientos()) + '. podrías formular diferente tu pregunta' #Lo siento podrías formular diferente tu pregunta' 
             }
         ],
         preprocessors=[
-            'chatterbot.preprocessors.convert_to_ascii',
             'chatterbot.preprocessors.clean_whitespace',
+            'chatterbot.preprocessors.convert_to_ascii',
+            
         ],
         read_only=True)
     """
@@ -70,10 +72,10 @@ def arranque():
     bot_input = bot.get_response(inicio) #entraba desde el metodo
     print('Jaimito >' + str(bot_input))
     """
-    print('Jaimito > hola')
+    print('Jaimito > ¡Hola!')
     while True:
         try:
-            entrada= input("You > ")
+            entrada= input("Tú > ")
             lEntrada = entrada.lower()
             """
             if (entrada =='**'):
@@ -89,11 +91,11 @@ def arranque():
         except(KeyboardInterrupt, EOFError, SystemExit):
             break
 
-"""
+
 def conocimientos():
     direc = os.fsencode("./yml-entrena/")
     lista=str(os.listdir(direc)).replace("b","").replace("'","").replace("[","").replace("]","").replace(".yml","")
     lista=list(lista.split(","))
     return lista
-"""
+
 arranque()
