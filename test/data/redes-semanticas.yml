@@ -1,0 +1,42 @@
+categories:
+- redes-semanticas
+- conversations
+conversations:
+- - Que son las redes semánticas
+  - Las Redes Semánticas son sistemas de representación del conocimiento donde se muestra de forma gráfica los nodos y 
+    enlaces y estos muestran las características y las relaciones de los objetos en un dominio
+- - Que son redes semanticas
+  - Son sistemas de representación del conocimiento donde los nodos se utilizan para representar objetos o propiedades
+    y los arcos representan la relaciones entre los nodos 
+- - Cual es el proposito de los nodos en una Red Semantica
+  - Básicamente los nodos de la Red Semántica son objetos
+- - Cual es el proposito de los arcos en una Red Semántica
+  - Estos indican las relaciones que hay entre los distintos 
+    objetos dentro de la estructura de conocimiento
+- - Podrias dar un ejemplo de los nodos en una Red Semántica
+  - "Lo intentaré. Los objetos que representa un nodo pueden ser: objetos de la vida real como u
+    auto o hasta un pequeño gatito."
+- - De dónde surgen
+  - Estan inspiradas en la psicología cognitiva la cual afirma que la representación 
+    del conocimiento se realiza a partir de sus relaciones.
+- - Que tipo de relaciones hay en una red semantica?
+  - padre - hijo, causa - efecto, "es un" o "es parte", o en inglés "PARTOF" o "ISA"
+- - Cual es el metodo de inferencia en las redes semánticas
+  - La herencia de propiedades
+- - Cual es el metodo de inferencia en las redes semánticas
+  - Algoritmo de herencia y confrontación de redes semánticas
+- - Que es un enlace en una Red Semantica
+  - Son una aseveración respecto de un elemento con relación a otro
+    Un enlace es una relación binaria. Los mas comunes son es-un y parte-de
+- - Podrias dar un ejemplo de enlace es-un
+  - "Por supuesto: caballo es-un mamifero"
+- - Podrias dar un ejemplo de enlace parte-de
+  - "Por su puesto: cola parte-de caballo"
+- - hay herencia en una red semantica
+  - Sí, por su puesto es la base de inferencia del conocimiento
+- - Que es la confrontación en una red semantica
+  - Es una operación utilizada para responder a consultas del usuario
+- - Crees que las redes semanticas tiene naturalidad en las expresiones
+  - la gráfica ayuda con la comprensión y como podemos ver unidos entre si los nodos del grafo 
+
+

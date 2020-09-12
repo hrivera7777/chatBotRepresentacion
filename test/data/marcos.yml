@@ -1,0 +1,22 @@
+categories:
+- frames
+- conversations
+conversations:
+- - que son frames
+  - es una forma de organizar la informacion referente a un objeto algo similar a una base de datos, esta estructura es usada en una red semantica y permite expresar el conocimiento declarativo y procedimental
+- - que es conocimiento declarativo
+  - es una acumulación de hechos estáticos
+- - que es conocimiento linguistico
+  - consiste en el conocimiento del vocabulario y de los patrones de las oraciones.
+- - como estan conformados
+  - están formados por un nombre y una serie de atributos (slots), que poseen valores y describen una entidad del mundo.
+- - que son los slots
+  - bueno, cada slot puede contener uno o más enlaces (facets)
+- - que son los facets
+  - son enlaces con valores asociados
+- - que metodo de inferencia utiliza los frames?
+  - tienen algoritmos de cofrontación y herencia en "frames"
+- - los frames tienen herencia?
+  - Sí, los marcos o "frames" tienen herencia
+- - crees que los frames tiene naturalidad en expresión?
+  - pues tienen representación estructurada y ordenada de la información y el conocimiento.

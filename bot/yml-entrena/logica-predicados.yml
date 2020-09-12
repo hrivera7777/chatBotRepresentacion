@@ -1,0 +1,43 @@
+categories:
+- logica de predicados
+conversations:
+- - en que se centra la lógica
+  - la lógica se centra en la relación entre las afirmaciones y no en el contenido de una afirmación en particular.
+- - lógica formal para la representación del conocimiento
+  - la lógica más ampliamente empleada para la representación de conocimiento es la lógica de predicados  
+- - en que esta basada la lógica de predicados
+  - la lógica de predicados está basada en la idea que las sentencias expresan relaciones entre los objetos o cualidades o atributos de estos.
+- - elementos de la lógica de predicados
+  - alfabeto • conjunto de enunciados (Predicados verdaderos, axiomas). • conjunto de reglas de inferencia.
+- - que es una proposición 
+  - una proposición es una unidad semántica que, o solo es verdadero, o solo es falsa, pero no ambas cosas
+- - que es el alfabeto?
+  - el alfabeto es un sistema ordenado de signos gráficos que se emplea en la escritura de algunas lenguas y que se basa en la correspondencia más o menos aproximada entre estos signos y los fonemas que representan.
+- - cuales son las variables?
+  - las variables son términos que se usan para representar argumentos de predicados que pueden variar en un proceso de inferencia.
+- - cuales son las funciones?
+  - las funciones identifica un elemento único del dominio.
+- - que es el predicado?
+  - el predicado es un enunciado que describe características y/o relaciones entre los objetos del mundo.
+- - que son los cuantificadores?
+  - De cual tipo de cuantificador quieres habla? del cuantificador universal o existencial?
+- - cual es el cuantificador universal?
+  - Es el que se utiliza para aseverar que una formula es verdadera para todos los valores de la variable asociada.
+- - cual es el cuantificador existencial?
+  - Es el que se emplea para aseverar que por lo menos existe alguna asignación para X, que hará que la fórmula asociada sea veraz.
+- - que son los atomos?
+  - los atomos son predicados cuyos argumentos son constantes, variables o funciones. Mínima expresión que puede escribirse en lógica.
+- - que son las Formulas Bien Formadas?
+  - las FBF determina los elementos validos en la combinacion del alfabeto.
+- - que son las FBF?
+  - las FBF determina los elementos validos en la combinacion del alfabeto.
+- - crees que es dificil actualizar la base del conocimiento?
+  - No, tiene facilidad para actualizar por la independencia de las declaraciones en la descripción del conocimiento.
+- - que es la inferencia?
+  - la inferencia es el proceso de generar nuevas FBF a partir de las FBF existentes, mediante la aplicación de las reglas de inferencia (Rolston, 1992).
+- - cuales son las raglas de inferencia?
+  - las reglas más comunes son Modus Ponens, Modus Tollens y especialización Universal.
+- - La logica de predicados posee herencia?
+  - No, lamentablemente o afortunadamente dependiendo de tú punto de vista.
+- - consideras que la logica de predicados tiene naturalidad en la expresion?
+  - Considero que si, es una forma natural de expresar el conocimiento.
