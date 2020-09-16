@@ -57,13 +57,13 @@ def arranque():
             
         ],
         read_only=True)
-    """
+    #"""
     trainer = ChatterBotCorpusTrainer(bot) # solo necesita entrenar una vez, por eso se mantienen comentadas las lineas
 
     trainer.train( 
         "./yml-entrena/"
     ) # cuando sea la primera vez que se usa, por favor descomentar estas lineas 
-    """
+    #"""
 
 
     #entrada2= "Es la frase que no supo interpretar"
@@ -97,5 +97,5 @@ def conocimientos():
     lista=str(os.listdir(direc)).replace("b","").replace("'","").replace("[","").replace("]","").replace(".yml","")
     lista=list(lista.split(","))
     return lista
-#esto es un comentario de prueba
+
 arranque()
