@@ -2,6 +2,12 @@ categories:
 - frames
 - conversations
 conversations:
+- - Me podrias hablar sobre frames
+  - Claro, es una forma de organizar la informacion referente a un objeto algo similar a una base de datos, esta estructura es usada en una red semantica y permite expresar el conocimiento declarativo y procedimental
+- - me puedes decir algo sobre frames
+  - es una forma de organizar la informacion referente a un objeto algo similar a una base de datos, esta estructura es usada en una red semantica y permite expresar el conocimiento declarativo y procedimental
+- - conoces sobre frames
+  - es una forma de organizar la informacion referente a un objeto algo similar a una base de datos, esta estructura es usada en una red semantica y permite expresar el conocimiento declarativo y procedimental
 - - que son frames
   - es una forma de organizar la informacion referente a un objeto algo similar a una base de datos, esta estructura es usada en una red semantica y permite expresar el conocimiento declarativo y procedimental
 - - que es conocimiento declarativo

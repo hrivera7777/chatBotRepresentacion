@@ -2,8 +2,16 @@ categories:
 - reglas-produccion
 - conversations
 conversations:
-- - me podrias hablar sobre reglas de produccion?
-  - claro que sí, el conocimiento esta representado por reglas heurísticas definidas por un experto en la materia. 
+- - Me podrias hablar sobre reglas de produccion
+  - el conocimiento esta representado por reglas heurísticas definidas por un experto en la materia. 
+    La unidad de conocimiento tiene la forma If <-> Then, Antecedente <-> Consecuente, Premisa <-> Conclusión, 
+    Sub-meta <-> Meta.
+- - me puedes decir algo sobre reglas de produccion
+  - el conocimiento esta representado por reglas heurísticas definidas por un experto en la materia. 
+    La unidad de conocimiento tiene la forma If <-> Then, Antecedente <-> Consecuente, Premisa <-> Conclusión, 
+    Sub-meta <-> Meta.
+- - conoces sobre reglas de produccion
+  - el conocimiento esta representado por reglas heurísticas definidas por un experto en la materia. 
     La unidad de conocimiento tiene la forma If <-> Then, Antecedente <-> Consecuente, Premisa <-> Conclusión, 
     Sub-meta <-> Meta.
 - - que es un sistema de producción
