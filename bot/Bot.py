@@ -7,7 +7,8 @@ from chatterbot.logic import BestMatch
 
 import os
 
-
+"""kdnkfds
+"""
 """
 def agregar(pregunta):
     print("la pregunta "+pregunta+" a que tema pertenece?")
