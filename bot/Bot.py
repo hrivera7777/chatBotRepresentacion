@@ -97,5 +97,5 @@ def conocimientos():
     lista=str(os.listdir(direc)).replace("b","").replace("'","").replace("[","").replace("]","").replace(".yml","")
     lista=list(lista.split(","))
     return lista
-
+#esto es un comentario de prueba
 arranque()
