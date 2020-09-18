@@ -2,15 +2,14 @@ from chatterbot import ChatBot
 from chatterbot.response_selection import get_random_response, get_most_frequent_response
 from chatterbot.comparisons import levenshtein_distance
 #from chatterbot.comparisons import JaccardSimilarity
-from JaccardSimilarity import JaccardSimilarity
+from similitud import JaccardSimilarity
 from chatterbot.trainers import ListTrainer
 from chatterbot.trainers import ChatterBotCorpusTrainer
 from chatterbot.logic import BestMatch
 
 import os
 
-
-#jaccard_similarity = JaccardSimilarity()
+jaccard_similarity = JaccardSimilarity()
 
 """
 """
@@ -92,18 +91,29 @@ def arranque():
             else:
                 entrada2 = entrada   
             """
+            if(lEntrada in despedidaIn):
+                print('Jaimito > Ok bye. :)')
+                break
+
             bot_input = bot.get_response(lEntrada)
             print('Jaimito > ' + str(bot_input))
+
+            
 
         except(KeyboardInterrupt, EOFError, SystemExit):
             break
 
-
+#métodos adicional  solo para mejorar la visualización de lo que sabe el bot
 def conocimientos():
     direc = os.fsencode("./yml-entrena/")
     lista=str(os.listdir(direc)).replace("b","").replace("'","").replace("[","").replace("]","").replace(".yml","")
     lista=list(lista.split(","))
     return lista
+
+#list para cerrar el chat bot
+despedidaIn=['chao', 'bye', 'hasta pronto','adios', 'hasta luego','nos vemos','que te vaya bien','gracias por todo']
+
+#print(str(jaccard_similarity.get_lemmatizer()))
 
 arranque()
 
