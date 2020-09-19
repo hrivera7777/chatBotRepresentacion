@@ -1,6 +1,6 @@
 from chatterbot import ChatBot
 from chatterbot.response_selection import get_random_response, get_most_frequent_response
-from chatterbot.comparisons import levenshtein_distance
+#from chatterbot.comparisons import levenshtein_distance
 #from chatterbot.comparisons import JaccardSimilarity
 from similitud import JaccardSimilarity
 from chatterbot.trainers import ListTrainer
@@ -54,7 +54,7 @@ def arranque():
                 "statement_comparison_function": JaccardSimilarity,
                 'maximum_similarity_threshold': 0.75,
                 "response_selection_method": get_most_frequent_response,
-                'default_response': 'solo se sobre estos pocos temas: ' + str(conocimientos()) + '. podrías formular diferente tu pregunta' #Lo siento podrías formular diferente tu pregunta' 
+                'default_response': 'solo se sobre estos pocos temas: ' + str(conocimientos()) + '. podrías formular diferente tu pregunta' 
             }
         ],
         preprocessors=[
