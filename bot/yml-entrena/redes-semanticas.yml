@@ -25,12 +25,21 @@ conversations:
 - - Podrias dar un ejemplo de los nodos en una Red Semántica
   - "Lo intentaré. Los objetos que representa un nodo pueden ser: objetos de la vida real como u
     auto o hasta un pequeño gatito."
-- - De dónde surgen
+- - De dónde surgen las redes semanticas
+  - Estan inspiradas en la psicología cognitiva la cual afirma que la representación 
+    del conocimiento se realiza a partir de sus relaciones.
+- - Dónde nacen las redes semanticas
   - Estan inspiradas en la psicología cognitiva la cual afirma que la representación 
     del conocimiento se realiza a partir de sus relaciones.
 - - Que tipo de relaciones hay en una red semantica?
   - padre - hijo, causa - efecto, "es un" o "es parte", o en inglés "PARTOF" o "ISA"
+- - podrias decirme que tipo de relaciones hay en una red semantica?
+  - padre - hijo, causa - efecto, "es un" o "es parte", o en inglés "PARTOF" o "ISA"
 - - Cual es el metodo de inferencia en las redes semánticas
+  - La herencia de propiedades
+- - Dime el metodo de inferencia en las redes semánticas
+  - La herencia de propiedades
+- - Podrias decirme el metodo de inferencia en las redes semánticas
   - La herencia de propiedades
 - - Cual es el metodo de inferencia en las redes semánticas
   - Algoritmo de herencia y confrontación de redes semánticas
@@ -39,13 +48,29 @@ conversations:
     Un enlace es una relación binaria. Los mas comunes son es-un y parte-de
 - - Podrias dar un ejemplo de enlace es-un
   - "Por supuesto: caballo es-un mamifero"
+- - Dame  un ejemplo de enlace es-un
+  - "Ejemplo: ballena es-un mamifero"
+- - Da un ejemplo de enlace es-un
+  - "Ejemplo: gato es-un felino"
 - - Podrias dar un ejemplo de enlace parte-de
   - "Por su puesto: cola parte-de caballo"
+- - Dame un ejemplo de enlace parte-de
+  - "De inmediato: ala parte-de ave"
+- - Da un ejemplo de enlace parte-de
+  - "Puede ser: ala parte-de ave"
 - - hay herencia en una red semantica
   - Sí, por su puesto es la base de inferencia del conocimiento
 - - Que es la confrontación en una red semantica
   - Es una operación utilizada para responder a consultas del usuario
 - - Crees que las redes semanticas tiene naturalidad en las expresiones
+  - la gráfica ayuda con la comprensión y como podemos ver unidos entre si los nodos del grafo 
+- - Que piensas de las redes semanticas tiene naturalidad en las expresiones
+  - la gráfica ayuda con la comprensión y como podemos ver unidos entre si los nodos del grafo 
+- - Que piensas de las redes semanticas con sus expresiones
+  - la gráfica ayuda con la comprensión y como podemos ver unidos entre si los nodos del grafo 
+- - hablame de las redes semanticas con sus expresiones
+  - la gráfica ayuda con la comprensión y como podemos ver unidos entre si los nodos del grafo 
+- - hablame de las redes semanticas tiene naturalidad en las expresiones
   - la gráfica ayuda con la comprensión y como podemos ver unidos entre si los nodos del grafo 
 
 
