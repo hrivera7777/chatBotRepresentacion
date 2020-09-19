@@ -113,7 +113,7 @@ def conocimientos():
 #list para cerrar el chat bot
 despedidaIn=['chao', 'bye', 'hasta pronto','adios', 'hasta luego','nos vemos','que te vaya bien','gracias por todo']
 
-#print(str(jaccard_similarity.get_lemmatizer()))
+#print(str(jaccard_similarity.get_stopwords()))
 
 arranque()
 
