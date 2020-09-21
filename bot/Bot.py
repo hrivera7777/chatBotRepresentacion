@@ -63,7 +63,7 @@ def conocimientos():
     return lista
 
 #list para cerrar el chat bot
-despedidaIn=['chao', 'bye', 'hasta pronto','adios', 'hasta luego','nos vemos','que te vaya bien','gracias por todo']
+despedidaIn=['chao', 'bye', 'hasta pronto','adios', 'hasta luego','nos vemos','que te vaya bien','gracias por todo', 'bueno muchas gracias', 'bueno', 'muchas gracias']
 
 
 
